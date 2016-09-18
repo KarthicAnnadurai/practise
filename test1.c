@@ -1,4 +1,7 @@
-#include<stdio.h>
-void main() {
-  printf("Welcome");
+#include <stdio.h>
+int main(void) {
+	int i;
+	for(i=0;i<5;i++)
+       printf("Hello");
+	return 0;
 }
